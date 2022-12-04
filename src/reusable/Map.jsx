@@ -22,7 +22,7 @@ function Map(props) {
 
   return (
     <>
-    <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{ height: "60vh", width: "60vw", margin: "auto" }} className="rounded" whenCreated={setMap}>
+    <MapContainer center={position} zoom={7.5} scrollWheelZoom={false} style={{ height: "60vh", width: "60vw", margin: "auto" }} className="rounded" whenCreated={setMap}>
       <div style={{ backgroundColor: "#000000", width: "100%", height: "100%", position: "absolute", top: 0, bottom: 0 }}><p>aaaaa</p></div>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
