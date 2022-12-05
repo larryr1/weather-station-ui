@@ -20,7 +20,7 @@ function Topnav(props) {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top" collapseOnSelect>
       <Container>
-        <Navbar.Brand>SCPA Weather</Navbar.Brand>
+        <Navbar.Brand>SCPA Weather (WIP)</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

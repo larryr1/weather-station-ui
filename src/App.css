@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
 .App {
+  font-family: 'Quicksand', sans-serif;
 }
 
 .App-logo {
@@ -42,4 +45,17 @@
 
 .hover-grow:hover {
   scale: 1.1;
+}
+
+.map {
+  width: 92vw;
+  height: 400px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .map {
+    width: 60vw;
+    height: 60vh;
+  }
 }
